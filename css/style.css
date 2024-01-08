@@ -128,12 +128,15 @@ img {
     SOLUZIONE RESPONSIVE
  ************************************************/
 
-/* query for mobile */
-@media screen and (max-width:480px) {
+/* query for tablet and to manage overflow*/
+@media screen and (max-width:1160px) {
     .container{
         max-width: 100%;
     }
+}
 
+/* query for mobile */
+@media screen and (max-width:480px) {
     .row{
         flex-direction: column;
         align-items: center;
